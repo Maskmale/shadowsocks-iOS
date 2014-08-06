@@ -7,6 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EF355B31992488600432C21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571B416CF6BCB003D96B4 /* main.m */; };
+		5EF355B41992488600432C21 /* SWBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571B816CF6BCB003D96B4 /* SWBAppDelegate.m */; };
+		5EF355B51992488600432C21 /* SWBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571C116CF6BCB003D96B4 /* SWBViewController.m */; };
+		5EF355B61992488600432C21 /* SWBTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571D116CF6D50003D96B4 /* SWBTabView.m */; };
+		5EF355B71992488600432C21 /* SWBTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571D316CF6D50003D96B4 /* SWBTab.m */; };
+		5EF355B81992488600432C21 /* SWBTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571D516CF6D50003D96B4 /* SWBTabBarView.m */; };
+		5EF355B91992488600432C21 /* SWBNewTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571D716CF6D50003D96B4 /* SWBNewTabButton.m */; };
+		5EF355BA1992488600432C21 /* SWBSmallCloseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571D916CF6D50003D96B4 /* SWBSmallCloseButton.m */; };
+		5EF355BB1992488600432C21 /* SWBSmallCloseButtonHighlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571DB16CF6D50003D96B4 /* SWBSmallCloseButtonHighlightView.m */; };
+		5EF355BC1992488600432C21 /* SWBWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571E616CF74CC003D96B4 /* SWBWebView.m */; };
+		5EF355BD1992488600432C21 /* SWBWebViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571E816CF74CC003D96B4 /* SWBWebViewContainer.m */; };
+		5EF355BE1992488600432C21 /* SWBNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571EE16CF782C003D96B4 /* SWBNetworkActivityIndicatorManager.m */; };
+		5EF355BF1992488600432C21 /* SWBPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571F116CF7FA6003D96B4 /* SWBPage.m */; };
+		5EF355C01992488600432C21 /* SWBPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571F316CF7FA6003D96B4 /* SWBPageManager.m */; };
+		5EF355C11992488600432C21 /* AppProxyCap.m in Sources */ = {isa = PBXBuildFile; fileRef = 628693E016DA2578008B1A26 /* AppProxyCap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EF355C21992488600432C21 /* interpose.c in Sources */ = {isa = PBXBuildFile; fileRef = 628693E416DA2584008B1A26 /* interpose.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EF355C31992488600432C21 /* ProxySettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628693F416DA2817008B1A26 /* ProxySettingsTableViewController.m */; };
+		5EF355C41992488600432C21 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCBFA17603FFA00411E5F /* GCDWebServer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EF355C51992488600432C21 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCBFC17603FFA00411E5F /* GCDWebServerConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EF355C61992488600432C21 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCBFF17603FFA00411E5F /* GCDWebServerRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EF355C71992488600432C21 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCC0117603FFA00411E5F /* GCDWebServerResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EF355C81992488600432C21 /* SimpleTableViewSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1897832237B71EF50B3DF4 /* SimpleTableViewSource.m */; };
+		5EF355C91992488600432C21 /* atom.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A4E176DA6FB00FE5575 /* atom.c */; };
+		5EF355CA1992488600432C21 /* auth.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A50176DA6FB00FE5575 /* auth.c */; };
+		5EF355CB1992488600432C21 /* chunk.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A53176DA6FB00FE5575 /* chunk.c */; };
+		5EF355CC1992488600432C21 /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A55176DA6FB00FE5575 /* client.c */; };
+		5EF355CD1992488600432C21 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A57176DA6FB00FE5575 /* config.c */; };
+		5EF355CE1992488600432C21 /* diskcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A5B176DA6FB00FE5575 /* diskcache.c */; };
+		5EF355CF1992488600432C21 /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A5D176DA6FB00FE5575 /* dns.c */; };
+		5EF355D01992488600432C21 /* event.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A5F176DA6FB00FE5575 /* event.c */; };
+		5EF355D11992488600432C21 /* forbidden.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A61176DA6FB00FE5575 /* forbidden.c */; };
+		5EF355D21992488600432C21 /* fts_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A64176DA6FB00FE5575 /* fts_compat.c */; };
+		5EF355D31992488600432C21 /* ftsimport.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A66176DA6FB00FE5575 /* ftsimport.c */; };
+		5EF355D41992488600432C21 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A68176DA6FB00FE5575 /* http.c */; };
+		5EF355D51992488600432C21 /* http_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A6A176DA6FB00FE5575 /* http_parse.c */; };
+		5EF355D61992488600432C21 /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A6D176DA6FB00FE5575 /* io.c */; };
+		5EF355D71992488600432C21 /* GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E27E5818C1D0CF0086033D /* GZIP.m */; };
+		5EF355D81992488600432C21 /* local.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A6F176DA6FB00FE5575 /* local.c */; };
+		5EF355D91992488600432C21 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 626C4ADA18B1E352003DBE33 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5EF355DA1992488600432C21 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A72176DA6FB00FE5575 /* log.c */; };
+		5EF355DB1992488600432C21 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A74176DA6FB00FE5575 /* main.c */; };
+		5EF355DC1992488600432C21 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A75176DA6FB00FE5575 /* Makefile */; };
+		5EF355DD1992488600432C21 /* md5import.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A78176DA6FB00FE5575 /* md5import.c */; };
+		5EF355DE1992488600432C21 /* mingw.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A7A176DA6FB00FE5575 /* mingw.c */; };
+		5EF355DF1992488600432C21 /* object.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A7C176DA6FB00FE5575 /* object.c */; };
+		5EF355E01992488600432C21 /* parse_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A7E176DA6FB00FE5575 /* parse_time.c */; };
+		5EF355E11992488600432C21 /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A85176DA6FB00FE5575 /* server.c */; };
+		5EF355E21992488600432C21 /* socks.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A87176DA6FB00FE5575 /* socks.c */; };
+		5EF355E31992488600432C21 /* tunnel.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A89176DA6FB00FE5575 /* tunnel.c */; };
+		5EF355E41992488600432C21 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A8B176DA6FB00FE5575 /* util.c */; };
+		5EF355E51992488600432C21 /* SWBAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB189EE1CF6E8C6C431B87BA /* SWBAboutController.m */; };
+		5EF355E61992488600432C21 /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1892CE8806A5E5632B5714 /* QRCodeViewController.m */; };
+		5EF355E71992488600432C21 /* ShadowsocksRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1897A89055A4C2CFD81AF8 /* ShadowsocksRunner.m */; };
+		5EF355E91992488600432C21 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E27E5B18C1D0F80086033D /* libz.dylib */; };
+		5EF355EA1992488600432C21 /* libZXingObjC-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6274846218B1FD4200A9CDF0 /* libZXingObjC-iOS.a */; };
+		5EF355EB1992488600432C21 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6274847318B1FD7900A9CDF0 /* ImageIO.framework */; };
+		5EF355EC1992488600432C21 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6274847118B1FD6F00A9CDF0 /* QuartzCore.framework */; };
+		5EF355ED1992488600432C21 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6274846F18B1FD6500A9CDF0 /* CoreMedia.framework */; };
+		5EF355EE1992488600432C21 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6274846D18B1FD5C00A9CDF0 /* CoreVideo.framework */; };
+		5EF355EF1992488600432C21 /* libshadowsocks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 623A7EBA1795AE8000DF11DF /* libshadowsocks.a */; };
+		5EF355F01992488600432C21 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CD918F178977B500B2CB55 /* MessageUI.framework */; };
+		5EF355F11992488600432C21 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621FCC081760400800411E5F /* CFNetwork.framework */; };
+		5EF355F21992488600432C21 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621FCC061760400400411E5F /* MobileCoreServices.framework */; };
+		5EF355F31992488600432C21 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D80C04176CE1D7006C8078 /* AVFoundation.framework */; };
+		5EF355F41992488600432C21 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CD1199175E3BD7008C4D0C /* libcrypto.a */; };
+		5EF355F51992488600432C21 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628693EA16DA26E2008B1A26 /* SystemConfiguration.framework */; };
+		5EF355F61992488600432C21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621571A816CF6BCB003D96B4 /* UIKit.framework */; };
+		5EF355F71992488600432C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621571AA16CF6BCB003D96B4 /* Foundation.framework */; };
+		5EF355F81992488600432C21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621571AC16CF6BCB003D96B4 /* CoreGraphics.framework */; };
+		5EF355F91992488600432C21 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DAB9DF177A11D7003DFFDE /* Crashlytics.framework */; };
+		5EF355FB1992488600432C21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627A6E1018B47E9300493BBC /* Images.xcassets */; };
+		5EF355FC1992488600432C21 /* proxy.pac.gz in Resources */ = {isa = PBXBuildFile; fileRef = 62E27E5318C1D03D0086033D /* proxy.pac.gz */; };
+		5EF355FD1992488600432C21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 621571B116CF6BCB003D96B4 /* InfoPlist.strings */; };
+		5EF355FE1992488600432C21 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 621571BA16CF6BCB003D96B4 /* Default.png */; };
+		5EF355FF1992488600432C21 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 628C3DE118AD5AFA0090632A /* Localizable.strings */; };
+		5EF356001992488600432C21 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 621571BC16CF6BCB003D96B4 /* Default@2x.png */; };
+		5EF356011992488600432C21 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 621571BE16CF6BCB003D96B4 /* Default-568h@2x.png */; };
+		5EF356021992488600432C21 /* 3gnet_enable.mobileconfig in Resources */ = {isa = PBXBuildFile; fileRef = EB1897A8F80969EC7477F89D /* 3gnet_enable.mobileconfig */; };
+		5EF356031992488600432C21 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 62DE795F18B2140D00277174 /* cancel.png */; };
+		5EF356041992488600432C21 /* polipo.config in Resources */ = {isa = PBXBuildFile; fileRef = 62D85AB2176DAA7200FE5575 /* polipo.config */; };
+		5EF356051992488600432C21 /* silence.wav in Resources */ = {isa = PBXBuildFile; fileRef = 62D85AB3176DAA7200FE5575 /* silence.wav */; };
+		5EF356061992488600432C21 /* 3gnet_disable.mobileconfig in Resources */ = {isa = PBXBuildFile; fileRef = EB1897AD03717EB5E44BA24B /* 3gnet_disable.mobileconfig */; };
+		5EF356071992488600432C21 /* polipo_disable.config in Resources */ = {isa = PBXBuildFile; fileRef = EB189F29205BA2AB998B867D /* polipo_disable.config */; };
+		5EF356081992488600432C21 /* about.txt in Resources */ = {isa = PBXBuildFile; fileRef = EB1891FD08E70E9E9DC84AFD /* about.txt */; };
 		6205309618D4443E00887D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621571AA16CF6BCB003D96B4 /* Foundation.framework */; };
 		6205309918D4443E00887D3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6205309818D4443E00887D3E /* main.m */; };
 		620530A518D4444E00887D3E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629AC93F18B49C33001D2771 /* SystemConfiguration.framework */; };
@@ -133,6 +217,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5EF355AF1992488600432C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25403CB2166A96FA00E13304;
+			remoteInfo = "ZXingObjC-iOS";
+		};
+		5EF355B11992488600432C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6215719D16CF6BCA003D96B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 623A7EB91795AE8000DF11DF;
+			remoteInfo = libshadowsocks;
+		};
 		620530BB18D44A4000887D3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6215719D16CF6BCA003D96B4 /* Project object */;
@@ -204,6 +302,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5EF3560D1992488600432C21 /* shadowsocksW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shadowsocksW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF3560E1992488600432C21 /* shadowsocksW-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "shadowsocksW-Info.plist"; path = "/Users/forgottoon/myShadowsocks-iOS/shadowsocksW-Info.plist"; sourceTree = "<absolute>"; };
 		6205309518D4443E00887D3E /* shadowsocks_sysconf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = shadowsocks_sysconf; sourceTree = BUILT_PRODUCTS_DIR; };
 		6205309818D4443E00887D3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6205309B18D4443E00887D3E /* shadowsocks_sysconf-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shadowsocks_sysconf-Prefix.pch"; sourceTree = "<group>"; };
@@ -410,6 +510,30 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5EF355E81992488600432C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF355E91992488600432C21 /* libz.dylib in Frameworks */,
+				5EF355EA1992488600432C21 /* libZXingObjC-iOS.a in Frameworks */,
+				5EF355EB1992488600432C21 /* ImageIO.framework in Frameworks */,
+				5EF355EC1992488600432C21 /* QuartzCore.framework in Frameworks */,
+				5EF355ED1992488600432C21 /* CoreMedia.framework in Frameworks */,
+				5EF355EE1992488600432C21 /* CoreVideo.framework in Frameworks */,
+				5EF355EF1992488600432C21 /* libshadowsocks.a in Frameworks */,
+				5EF355F01992488600432C21 /* MessageUI.framework in Frameworks */,
+				5EF355F11992488600432C21 /* CFNetwork.framework in Frameworks */,
+				5EF355F21992488600432C21 /* MobileCoreServices.framework in Frameworks */,
+				5EF355F31992488600432C21 /* AVFoundation.framework in Frameworks */,
+				5EF355F41992488600432C21 /* libcrypto.a in Frameworks */,
+				5EF355F51992488600432C21 /* SystemConfiguration.framework in Frameworks */,
+				5EF355F61992488600432C21 /* UIKit.framework in Frameworks */,
+				5EF355F71992488600432C21 /* Foundation.framework in Frameworks */,
+				5EF355F81992488600432C21 /* CoreGraphics.framework in Frameworks */,
+				5EF355F91992488600432C21 /* Crashlytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6205309218D4443E00887D3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -465,6 +589,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EF356141992498100432C21 /* ShadowWebKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ShadowWebKit;
+			path = ShadowWeb;
+			sourceTree = "<group>";
+		};
 		6205309718D4443E00887D3E /* shadowsocks_sysconf */ = {
 			isa = PBXGroup;
 			children = (
@@ -485,6 +617,7 @@
 		6215719C16CF6BCA003D96B4 = {
 			isa = PBXGroup;
 			children = (
+				5EF356141992498100432C21 /* ShadowWebKit */,
 				621571AE16CF6BCB003D96B4 /* ShadowWeb */,
 				627A6DFE18B47E9300493BBC /* ShadowsocksX */,
 				627A6E1C18B47E9300493BBC /* ShadowsocksXTests */,
@@ -492,6 +625,7 @@
 				621571A716CF6BCB003D96B4 /* Frameworks */,
 				621571A616CF6BCB003D96B4 /* Products */,
 				EB1891FD08E70E9E9DC84AFD /* about.txt */,
+				5EF3560E1992488600432C21 /* shadowsocksW-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -502,6 +636,7 @@
 				623A7EBA1795AE8000DF11DF /* libshadowsocks.a */,
 				627A6DF718B47E9300493BBC /* ShadowsocksX.app */,
 				6205309518D4443E00887D3E /* shadowsocks_sysconf */,
+				5EF3560D1992488600432C21 /* shadowsocksW.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -872,6 +1007,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5EF355AD1992488600432C21 /* shadowsocksW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EF3560A1992488600432C21 /* Build configuration list for PBXNativeTarget "shadowsocksW" */;
+			buildPhases = (
+				5EF355B21992488600432C21 /* Sources */,
+				5EF355E81992488600432C21 /* Frameworks */,
+				5EF355FA1992488600432C21 /* Resources */,
+				5EF356091992488600432C21 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EF355AE1992488600432C21 /* PBXTargetDependency */,
+				5EF355B01992488600432C21 /* PBXTargetDependency */,
+			);
+			name = shadowsocksW;
+			productName = ShadowWeb;
+			productReference = 5EF3560D1992488600432C21 /* shadowsocksW.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6205309418D4443E00887D3E /* shadowsocks_sysconf */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 620530A418D4443E00887D3E /* Build configuration list for PBXNativeTarget "shadowsocks_sysconf" */;
@@ -978,6 +1133,7 @@
 			);
 			projectRoot = "";
 			targets = (
+				5EF355AD1992488600432C21 /* shadowsocksW */,
 				621571A416CF6BCB003D96B4 /* shadowsocks */,
 				623A7EB91795AE8000DF11DF /* libshadowsocks */,
 				627A6DF618B47E9300493BBC /* ShadowsocksX */,
@@ -1025,6 +1181,27 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5EF355FA1992488600432C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF355FB1992488600432C21 /* Images.xcassets in Resources */,
+				5EF355FC1992488600432C21 /* proxy.pac.gz in Resources */,
+				5EF355FD1992488600432C21 /* InfoPlist.strings in Resources */,
+				5EF355FE1992488600432C21 /* Default.png in Resources */,
+				5EF355FF1992488600432C21 /* Localizable.strings in Resources */,
+				5EF356001992488600432C21 /* Default@2x.png in Resources */,
+				5EF356011992488600432C21 /* Default-568h@2x.png in Resources */,
+				5EF356021992488600432C21 /* 3gnet_enable.mobileconfig in Resources */,
+				5EF356031992488600432C21 /* cancel.png in Resources */,
+				5EF356041992488600432C21 /* polipo.config in Resources */,
+				5EF356051992488600432C21 /* silence.wav in Resources */,
+				5EF356061992488600432C21 /* 3gnet_disable.mobileconfig in Resources */,
+				5EF356071992488600432C21 /* polipo_disable.config in Resources */,
+				5EF356081992488600432C21 /* about.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		621571A316CF6BCB003D96B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1069,6 +1246,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5EF356091992488600432C21 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run fa65e4ab45ef1c9c69682529bee0751cd22d5d80";
+		};
 		62DAB9DE177A11AD003DFFDE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1085,6 +1275,66 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5EF355B21992488600432C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF355B31992488600432C21 /* main.m in Sources */,
+				5EF355B41992488600432C21 /* SWBAppDelegate.m in Sources */,
+				5EF355B51992488600432C21 /* SWBViewController.m in Sources */,
+				5EF355B61992488600432C21 /* SWBTabView.m in Sources */,
+				5EF355B71992488600432C21 /* SWBTab.m in Sources */,
+				5EF355B81992488600432C21 /* SWBTabBarView.m in Sources */,
+				5EF355B91992488600432C21 /* SWBNewTabButton.m in Sources */,
+				5EF355BA1992488600432C21 /* SWBSmallCloseButton.m in Sources */,
+				5EF355BB1992488600432C21 /* SWBSmallCloseButtonHighlightView.m in Sources */,
+				5EF355BC1992488600432C21 /* SWBWebView.m in Sources */,
+				5EF355BD1992488600432C21 /* SWBWebViewContainer.m in Sources */,
+				5EF355BE1992488600432C21 /* SWBNetworkActivityIndicatorManager.m in Sources */,
+				5EF355BF1992488600432C21 /* SWBPage.m in Sources */,
+				5EF355C01992488600432C21 /* SWBPageManager.m in Sources */,
+				5EF355C11992488600432C21 /* AppProxyCap.m in Sources */,
+				5EF355C21992488600432C21 /* interpose.c in Sources */,
+				5EF355C31992488600432C21 /* ProxySettingsTableViewController.m in Sources */,
+				5EF355C41992488600432C21 /* GCDWebServer.m in Sources */,
+				5EF355C51992488600432C21 /* GCDWebServerConnection.m in Sources */,
+				5EF355C61992488600432C21 /* GCDWebServerRequest.m in Sources */,
+				5EF355C71992488600432C21 /* GCDWebServerResponse.m in Sources */,
+				5EF355C81992488600432C21 /* SimpleTableViewSource.m in Sources */,
+				5EF355C91992488600432C21 /* atom.c in Sources */,
+				5EF355CA1992488600432C21 /* auth.c in Sources */,
+				5EF355CB1992488600432C21 /* chunk.c in Sources */,
+				5EF355CC1992488600432C21 /* client.c in Sources */,
+				5EF355CD1992488600432C21 /* config.c in Sources */,
+				5EF355CE1992488600432C21 /* diskcache.c in Sources */,
+				5EF355CF1992488600432C21 /* dns.c in Sources */,
+				5EF355D01992488600432C21 /* event.c in Sources */,
+				5EF355D11992488600432C21 /* forbidden.c in Sources */,
+				5EF355D21992488600432C21 /* fts_compat.c in Sources */,
+				5EF355D31992488600432C21 /* ftsimport.c in Sources */,
+				5EF355D41992488600432C21 /* http.c in Sources */,
+				5EF355D51992488600432C21 /* http_parse.c in Sources */,
+				5EF355D61992488600432C21 /* io.c in Sources */,
+				5EF355D71992488600432C21 /* GZIP.m in Sources */,
+				5EF355D81992488600432C21 /* local.c in Sources */,
+				5EF355D91992488600432C21 /* NSData+Base64.m in Sources */,
+				5EF355DA1992488600432C21 /* log.c in Sources */,
+				5EF355DB1992488600432C21 /* main.c in Sources */,
+				5EF355DC1992488600432C21 /* Makefile in Sources */,
+				5EF355DD1992488600432C21 /* md5import.c in Sources */,
+				5EF355DE1992488600432C21 /* mingw.c in Sources */,
+				5EF355DF1992488600432C21 /* object.c in Sources */,
+				5EF355E01992488600432C21 /* parse_time.c in Sources */,
+				5EF355E11992488600432C21 /* server.c in Sources */,
+				5EF355E21992488600432C21 /* socks.c in Sources */,
+				5EF355E31992488600432C21 /* tunnel.c in Sources */,
+				5EF355E41992488600432C21 /* util.c in Sources */,
+				5EF355E51992488600432C21 /* SWBAboutController.m in Sources */,
+				5EF355E61992488600432C21 /* QRCodeViewController.m in Sources */,
+				5EF355E71992488600432C21 /* ShadowsocksRunner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6205309118D4443E00887D3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1188,6 +1438,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5EF355AE1992488600432C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZXingObjC-iOS";
+			targetProxy = 5EF355AF1992488600432C21 /* PBXContainerItemProxy */;
+		};
+		5EF355B01992488600432C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 623A7EB91795AE8000DF11DF /* libshadowsocks */;
+			targetProxy = 5EF355B11992488600432C21 /* PBXContainerItemProxy */;
+		};
 		620530BC18D44A4000887D3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6205309418D4443E00887D3E /* shadowsocks_sysconf */;
@@ -1259,6 +1519,69 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5EF3560B1992488600432C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowWeb/shadowsocks-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"OpenSSL-for-iPhone/include/",
+					"./zxing-objc/**",
+				);
+				INFOPLIST_FILE = "shadowsocksW-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OpenSSL-for-iPhone/lib\"",
+				);
+				PRODUCT_NAME = shadowsocksW;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5EF3560C1992488600432C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowWeb/shadowsocks-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"OpenSSL-for-iPhone/include/",
+					"./zxing-objc/**",
+				);
+				INFOPLIST_FILE = "shadowsocksW-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OpenSSL-for-iPhone/lib\"",
+				);
+				PRODUCT_NAME = shadowsocksW;
+				PROVISIONING_PROFILE = "10B86086-082B-4967-8900-EDF458793F84";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		6205309E18D4443E00887D3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1549,6 +1872,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5EF3560A1992488600432C21 /* Build configuration list for PBXNativeTarget "shadowsocksW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF3560B1992488600432C21 /* Debug */,
+				5EF3560C1992488600432C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		620530A418D4443E00887D3E /* Build configuration list for PBXNativeTarget "shadowsocks_sysconf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
